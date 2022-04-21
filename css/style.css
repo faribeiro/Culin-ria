@@ -1,0 +1,86 @@
+*{
+    text-decoration: none;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h2{
+    color: brown;
+    font-size: 26px;
+}
+.rows{
+    display: inline-block;
+}
+.bg{
+    background-image: url(../img/food-2879265\ -\ Copia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-lasanha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 3px
+}
+.menu{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.txtmenu{
+    color: rgb(128, 79, 15);
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.txt{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    margin-bottom: 1px;
+    font-size: 22px;
+}
+.titulo{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    margin-bottom: 1px;
+    font-size: 36px;
+}
+
+.container{
+    background-color: rgba(224, 224, 224, 0.5);
+    width: 80%;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.containerFull{
+    width: 100%;
+}
+
+.rodape{
+    background-color: black;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
