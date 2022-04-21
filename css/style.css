@@ -44,6 +44,11 @@ h2{
     letter-spacing: 2px;
     width: 100%;
 }
+.efeito-menu:hover{
+    text-shadow: 0 0 1px;
+    text-decoration-color: brown;
+    transition: 2s;
+}
 
 .txtmenu{
     color: rgb(128, 79, 15);
